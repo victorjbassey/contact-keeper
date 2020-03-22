@@ -23,7 +23,7 @@ const ContactForm = () => {
         type: "personal"
       });
     }
-  }, [current]);
+  }, [contactContext, current]);
 
   const { name, email, phone, type } = contact;
 
